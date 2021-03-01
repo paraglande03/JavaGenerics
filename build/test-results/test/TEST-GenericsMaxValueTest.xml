@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="GenericsMaxValueTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-03-01T18:35:04" hostname="PARAG" time="0.001">
+  <properties/>
+  <testcase name="givenSecondNumberAsMaXNumber_ShouldReturnSecondNumberAsMaximum" classname="GenericsMaxValueTest" time="0.001"/>
+  <testcase name="givenThirdNumberAsMaXNumber_ShouldReturnThirdNumberAsMaximum" classname="GenericsMaxValueTest" time="0.0"/>
+  <testcase name="givenFirstNumberAsMaxNumber_ShouldReturn_FirstNumberAsMax" classname="GenericsMaxValueTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
