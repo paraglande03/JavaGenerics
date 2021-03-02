@@ -13,7 +13,11 @@ public class GenericsMaxValue {
         }
         return max;
     }
-
+    private static <E>void toPrint(E[] max) {
+        for (E i:max) {
+            System.out.println(i);
+        }
+    }
     public static int testMaximumInteger(Integer x, Integer y, Integer z) {
         Integer max = x;
         if (y.compareTo(max) > 0) {
@@ -34,7 +38,7 @@ public class GenericsMaxValue {
         }
         return max1;
     }
-    public String testMaximumString(String first, String second, String third) {
+    public static String testMaximumString(String first, String second, String third) {
         int max = first.length();
         String letter = first;
         if (second.length() > max) {
@@ -52,9 +56,9 @@ public class GenericsMaxValue {
         System.out.println(" Maximum number is : " + max);
     }
     private static void printMax(double max) {
-        System.out.println(" Maximum number is : " + max);
+        System.out.println(" Maximum double  number is : " + max);
     }
     private static void printMax(String max) {
-        System.out.println(" Maximum number is : " + max);
+        System.out.println(" Maximum String length is : " + max);
     }
 }
