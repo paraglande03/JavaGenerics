@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="GenericsMaxValueTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-03-01T18:38:42" hostname="PARAG" time="0.007">
+<testsuite name="GenericsMaxValueTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-03-02T10:52:24" hostname="PARAG" time="0.006">
   <properties/>
-  <testcase name="givenSecondFloatAsMaxNumber_ShouldReturnSecondFloatAsMaximum" classname="GenericsMaxValueTest" time="0.002"/>
+  <testcase name="givenSecondFloatAsMaxNumber_ShouldReturnSecondFloatAsMaximum" classname="GenericsMaxValueTest" time="0.0"/>
+  <testcase name="givenSecondLetterAsMaximum_ShouldReturnSecondLetterAsMaximum" classname="GenericsMaxValueTest" time="0.003"/>
   <testcase name="givenSecondNumberAsMaXNumber_ShouldReturnSecondNumberAsMaximum" classname="GenericsMaxValueTest" time="0.0"/>
   <testcase name="givenThirdFloatAsMaxNumber_ShouldReturnThirdFloatAsMaximum" classname="GenericsMaxValueTest" time="0.0"/>
+  <testcase name="givenThirdLetterAsMaximum_ShouldReturnThirdLetterAsMaximum" classname="GenericsMaxValueTest" time="0.0"/>
   <testcase name="givenThirdNumberAsMaXNumber_ShouldReturnThirdNumberAsMaximum" classname="GenericsMaxValueTest" time="0.0"/>
   <testcase name="givenFirstNumberAsMaxNumber_ShouldReturn_FirstNumberAsMax" classname="GenericsMaxValueTest" time="0.0"/>
+  <testcase name="givenFirstLetterAsMaximum_ShouldReturnFirstLetterAsMaximum" classname="GenericsMaxValueTest" time="0.0"/>
   <testcase name="givenFirstFloatAsMaxNumber_ShouldReturnFirstFloatAsMaximum" classname="GenericsMaxValueTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
+  <system-out><![CDATA[ Maximum number is : dattatraya
+ Maximum number is : dattatraya
+ Maximum number is : dattatraya
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
