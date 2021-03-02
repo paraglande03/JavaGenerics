@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="GenericsMaxValueTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-03-02T10:52:24" hostname="PARAG" time="0.006">
+<testsuite name="GenericsMaxValueTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-03-02T10:59:49" hostname="PARAG" time="0.007">
   <properties/>
-  <testcase name="givenSecondFloatAsMaxNumber_ShouldReturnSecondFloatAsMaximum" classname="GenericsMaxValueTest" time="0.0"/>
-  <testcase name="givenSecondLetterAsMaximum_ShouldReturnSecondLetterAsMaximum" classname="GenericsMaxValueTest" time="0.003"/>
-  <testcase name="givenSecondNumberAsMaXNumber_ShouldReturnSecondNumberAsMaximum" classname="GenericsMaxValueTest" time="0.0"/>
+  <testcase name="givenSecondFloatAsMaxNumber_ShouldReturnSecondFloatAsMaximum" classname="GenericsMaxValueTest" time="0.001"/>
+  <testcase name="givenSecondLetterAsMaximum_ShouldReturnSecondLetterAsMaximum" classname="GenericsMaxValueTest" time="0.004"/>
+  <testcase name="givenSecondNumberAsMaXNumber_ShouldReturnSecondNumberAsMaximum" classname="GenericsMaxValueTest" time="0.001"/>
   <testcase name="givenThirdFloatAsMaxNumber_ShouldReturnThirdFloatAsMaximum" classname="GenericsMaxValueTest" time="0.0"/>
   <testcase name="givenThirdLetterAsMaximum_ShouldReturnThirdLetterAsMaximum" classname="GenericsMaxValueTest" time="0.0"/>
   <testcase name="givenThirdNumberAsMaXNumber_ShouldReturnThirdNumberAsMaximum" classname="GenericsMaxValueTest" time="0.0"/>

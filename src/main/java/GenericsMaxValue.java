@@ -3,7 +3,17 @@ public class GenericsMaxValue {
         printMax(testMaximumInteger(100, 200, 400));
         Double [] b ={1.1,1.2,1.3};
         String [] c = {"parag","lande","patil"};
+
     }
+    public static <E extends Comparable<E>> E max(E[] list) {
+        E max = list[0]; //sets the first value in the array as the current maximum
+        for (int i = 1; i < list.length; i++) {
+            if (list[i].compareTo(max) > 0) //if value in list[i] is greater than max and is positive(greater than 0), the max value is replaced by list[i] {
+                max = list[i];
+        }
+        return max;
+    }
+
     public static int testMaximumInteger(Integer x, Integer y, Integer z) {
         Integer max = x;
         if (y.compareTo(max) > 0) {
